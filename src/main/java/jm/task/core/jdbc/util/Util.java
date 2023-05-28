@@ -17,7 +17,7 @@ public class Util {
     private static final String u = "root";
     private static final String p = "root";
     private static final String url = "jdbc:mysql://localhost:3306/test";
-    static SessionFactory sessionFactory;
+    private static final SessionFactory sessionFactory;
 
     public static Connection connect() {
 
